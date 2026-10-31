@@ -12,4 +12,19 @@ states/
 
 # Optional
 .env
-.env.local
+.env.local.env
+
+# Foundry
+out/
+cache/
+broadcast/
+coverage/
+forge-cache/
+
+# Environment and secrets
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
